@@ -1,0 +1,20 @@
+# Genel PHP dosyaları
+vendor/
+composer.lock
+
+# IDE ve editör dosyaları
+*.idea/
+*.vscode/
+*.DS_Store
+
+# Çalışma dosyaları
+.env
+node_modules/
+
+# Log ve geçici dosyalar
+*.log
+*.cache
+
+# İşletim sistemine özgü dosyalar
+Thumbs.db
+.DS_Store
