@@ -1,22 +1,21 @@
 {
   "name": "yusufkalafat/trendyol-api-client",
-  "description": "Trendyol API ile entegrasyon için PHP istemcisi.",
+  "description": "Trendyol API PHP istemcisi",
   "type": "library",
-  "require": {
-    "php": "^7.4 || ^8.0",
-    "guzzlehttp/guzzle": "^7.0"
-  },
+  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Trendyol\\": "src/"
     }
   },
-  "license": "MIT",
   "authors": [
     {
       "name": "Yusuf Kalafat",
       "email": "hi@yusufkalafat.com"
     }
   ],
-  "minimum-stability": "stable"
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*"
+  }
 }
